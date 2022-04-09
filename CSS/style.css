@@ -675,9 +675,7 @@ padding-left: 25px;
   width: 100%;
   height: 100%;
 }
-.gallery-image-box:hover{
-  cursor: zoom-in;
-}
+
 .gallery-image-box{
   position: relative;
 }
@@ -703,6 +701,7 @@ padding-left: 25px;
 
 .gallery-image-box:hover .overlay{
   visibility: visible;
+  cursor: zoom-in;
 }
  
 .lightbox{
